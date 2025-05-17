@@ -1,6 +1,9 @@
 import customtkinter as ctk
 from ui.sidebar import Sidebar
 from ui.main_view import MainView
+from data.database import create_table
+
+create_table() 
 
 class App(ctk.CTk):
     def __init__(self):
